@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.value {
+  margin-left: 5px;
+}
+
+.car-image {
+  max-height: 300px;
+}
+
+.car-details {
+  padding: 20px;
+}
+
+.car-details h3 {
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn {
+  font-weight: 600;
+}
